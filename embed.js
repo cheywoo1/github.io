@@ -3,7 +3,6 @@ if (document.createStyleSheet){
 } else  {
     loadCssFile('https://fred.stlouisfed.org/graph/css/embed.css')
 }
-
 function loadCssFile(filename) {
     var fileref = document.createElement("link")
     fileref.setAttribute("rel", "stylesheet")
