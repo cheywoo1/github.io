@@ -1,7 +1,7 @@
 if (document.createStyleSheet){
-    document.createStyleSheet('https://fred.stlouisfed.org/graph/css/embed.css');
+    document.createStyleSheet('embed.css');
 } else  {
-    loadCssFile('https://fred.stlouisfed.org/graph/css/embed.css')
+    loadCssFile('embed.css')
 }
 function loadCssFile(filename) {
     var fileref = document.createElement("link")
