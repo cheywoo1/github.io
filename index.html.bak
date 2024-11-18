@@ -23,8 +23,8 @@
   <hr>
   <h4>Graph notes</h4>
   <ul>
-    <li>Data is live</li>
-    <li>Date ranges are set 2016/01/01 - today</li>
+    <li>Data is live.</li>
+    <li>Date ranges are set 2016/01/01 - today.</li>
     <li>Use sliders to change the date range</li>
   </ul>
   <div class="iframe-container">
