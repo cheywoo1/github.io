@@ -11,17 +11,3 @@ margin: 5px;
       height: 400px;          /* Set a height for the iframes */
       border: none;           /* Remove default border */
     }
-    div.wid {
-      width: 600PX;
-      MIN-WIDTH: 400PX;
-      margin: 3px;
-      float: left;
-      padding: 10px;
-      border: 1px solid black;
-}
-H4 {
-	margin: 1px;
-}
-p {
-	margin: 2px;
-}
