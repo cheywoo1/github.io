@@ -1,76 +1,91 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta name="generator" content="HTML Tidy for HTML5 for Windows version 5.0.0.RC1">
-    <title>Economic Indicators</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Class-less preview • Pico CSS</title>
+    <meta name="description" content="A class-less example, without dependencies." />
+
+    <!-- Pico.css -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.0.6/css/pico.classless.min.css" />
 </head>
 <body>
+    <header>
+        <hgroup>
+            <h2> Indicators of Interest</h2>
+        </hgroup>
+    </header>
+    <main>
+        <section>
+            <h4>Popular vote</h4>
+            <p>Harris 73,886,652 (48.3%) Trump 76,516,791 (49.6%) (src: Cook Political Report 11-18-2024)</p>
+        </section>
+        <section>
+            <h4> Trumps promises </h4>
+            <ul>
+                <li>
+                    Promised the price of energy would be cut in half within one year.
+                    Gasoline in October 2024 averaged $3.26, so we expect that
+                    number to be $1.63 by the end of 2025.
+                </li>
+                <li>
+                    Promised to end the Ukraine war within 24 hours.
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h4> Notes </h4>
+            <ul>
+                <li>
+                    Trump can invoke the "Insurrection Act"" at the Inauguration and declare a national immigration emergency.
+                </li>
+                <li>
+                    This will allow him to mobilize the military and federalize all state national guard troops under his direct control.
+                </li>
+                <li>
+                    In addition he has the constitutional authority (<b>Article 1, Section 9, Clause 2</b> of the USA Constitution) to suspend the right to Habeas Corpus “in cases of Rebellion or Invasion”
+                </li>
+                <li>
+                    None of the people rounded up will have the right to appeal their expulsion.
+                </li>
+            </ul>
+            <p>This what he meant by being a “dictator on day one”</p>
+        </section>
+        <section>
+            <h4>Graphs</h4>
+            <ul>
+                <li>Data is live</li>
+                <li>Date ranges are set 2016/01/01 - today</li>
+                <li>Use sliders to change the date range</li>
+            </ul>
+        </section>
+        <section>
+            FIXED RATE MORTGAGE
+            <iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=1Aile&width=335&height=237"
+                    scrolling="no" frameborder="4" style="overflow:hidden;"
+                    allowtransparency="true" loading="lazy"></iframe>
+        </section>
+        <section>
+            Consumer Price Index
+            <iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=1BbLP&width=335&height=237"
+                    scrolling="no" frameborder="0" style="overflow:hidden;"
+                    allowtransparency="true" loading="lazy"></iframe>
+        </section>
+        <section>
+            FIXED RATE MORTGAGE
+            <iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=1Aile&width=335&height=237"
+                    scrolling="no" frameborder="4" style="overflow:hidden;"
+                    allowtransparency="true" loading="lazy"></iframe>
+        </section>
+        <section>
+            Consumer Price Index
+                <iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=1BbLP&width=335&height=237"
+                        scrolling="no" frameborder="0" style="overflow:hidden;"
+                        allowtransparency="true" loading="lazy"></iframe>
+        </section>
+    </main>
     <p id="date-time"></p>
-    <h2>Economic Progress Indicators</h2>
-    <div class="wid">
-        <h4>
-            Popular Vote: Harris 73,886,652 (48.3%) Trump 76,516,791 (49.6%)
-        </h4>
-        <p>(src: Cook Political Report 11-18-2024)</p>
-    </div>
-    <div class="wid">
-        <h4> Trumps promises </h4>
-        <ul>
-            <li>
-                Promised the price of energy would be cut in half within one year.
-                Gasoline in October 2024 averaged $3.26, so we expect that
-                number to be $1.63 by the end of 2025.
-            </li>
-            <li>
-                Promised to end the Ukraine war within 24 hours.
-            </li>
-        </ul>
-    </div>
-    <br><br/>
-    <div class="wid">
-        <h4> Notes </h4>
-        <ul>
-            <li>
-                Trump can invoke the "Insurrection Act"" at the Inauguration and declare a national immigration emergency.
-            </li>
-            <li>
-                This will allow him to mobilize the military and federalize all state national guard troops under his direct control.
-            </li>
-            <li>
-                In addition he has the constitutional authority (<b>Article 1, Section 9, Clause 2</b> of the USA Constitution) to suspend the right to Habeas Corpus “in cases of Rebellion or Invasion”
-            </li>
-            <li>
-                None of the people rounded up will have the right to appeal their expulsion.
-            </li>
-        </ul>
-        <p>This what he meant by being a “dictator on day one”</p>
-    </div>
-    <div class="wid">
-        <h4>Graph</h4>
-        <ul>
-            <li>Data is live</li>
-            <li>Date ranges are set 2016/01/01 - today</li>
-            <li>Use sliders to change the date range</li>
-        </ul>
-    </div>
-    <div class="iframe-container">
-        <p>FIXED RATE MORTGAGE</p>
-        <iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=1Aile&width=335&height=237"
-                scrolling="no" frameborder="4" style="overflow:hidden;"
-                allowtransparency="true" loading="lazy"></iframe>
-        <p>Consumer Price Index</p><iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=1BbLP&width=335&height=237"
-                                           scrolling="no" frameborder="0" style="overflow:hidden;"
-                                           allowtransparency="true" loading="lazy"></iframe>
-    </div>
-    <div class="iframe-container">
-        <p>FIXED RATE MORTGAGE</p><iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=1Aile&width=335&height=237"
-                                          scrolling="no" frameborder="4" style="overflow:hidden;"
-                                          allowtransparency="true" loading="lazy"></iframe>
-        <p>Consumer Price Index</p><iframe src="https://fred.stlouisfed.org/graph/graph-landing.php?g=1BbLP&width=335&height=237"
-                                           scrolling="no" frameborder="0" style="overflow:hidden;"
-                                           allowtransparency="true" loading="lazy"></iframe>
-    </div><br>
     <script src="embed.js" type="text/javascript">
     </script>
 </body>
