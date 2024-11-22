@@ -1,13 +1,14 @@
 
-    .iframe-container {
-      display: flex;          /* Use flexbox for layout */
-      justify-content: space-between;  /* Space out the iframes */
-      gap: 10px;              /* Add space between the iframes */
-float: left;
-margin: 5px;
-    }
-    iframe {
-      width: 46%;             /* Set iframe width to fit side by side */
-      height: 400px;          /* Set a height for the iframes */
-      border: none;           /* Remove default border */
-    }
+.iframe-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out the iframes */
+    gap: 10px; /* Add space between the iframes */
+    float: left;
+    margin: 5px;
+}
+
+iframe {
+    width: 80%; /* Set iframe width to fit side by side */
+    height: 300px; /* Set a height for the iframes */
+    border: none; /* Remove default border */
+}
