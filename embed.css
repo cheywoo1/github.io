@@ -5,9 +5,11 @@
     gap: 10px; /* Add space between the iframes */
     float: left;
     margin: 5px;
+
+
 }
 iframe {
-    width: 700px; /* Set iframe width to fit side by side */
-    height: 250px; /* Set a height for the iframes */
+    width: 700px;  /* iframe width to fit side by side */
+    height: 350px; /* Set a height for the iframes */
     border: none; /* Remove default border */
 }
