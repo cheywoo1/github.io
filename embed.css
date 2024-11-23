@@ -7,7 +7,7 @@
     margin: 5px;
 }
 iframe {
-    width: 80%; /* Set iframe width to fit side by side */
+    width: 100%; /* Set iframe width to fit side by side */
     height: 300px; /* Set a height for the iframes */
     border: none; /* Remove default border */
 }
