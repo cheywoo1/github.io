@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Table</title>
+    <style>
+        /* Basic styling for the table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        /* Responsive table - scroll horizontally on smaller screens */
+        .table-container {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        @media (max-width: 768px) {
+            th, td {
+                padding: 8px;
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>2024</th>
+                    <th>2020</th>
+                    <th>2016</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Trump</td>
+                    <td>Harris</td>
+                    <td>Other</td>
+                </tr>
+                <tr>
+                    <td>Trump</td>
+                    <td>Harris</td>
+                    <td>Other</td>
+                </tr>
+                <tr>
+                    <td>Trump</td>
+                    <td>Harris</td>
+                    <td>Other</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
