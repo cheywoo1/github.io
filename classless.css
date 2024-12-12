@@ -43,25 +43,25 @@
 
 @media (min-width:576px) {
     :root {
-        --pico-font-size: 106.25%
+        --pico-font-size: 75%
     }
 }
 
 @media (min-width:768px) {
     :root {
-        --pico-font-size: 112.5%
+        --pico-font-size: 80%
     }
 }
 
 @media (min-width:1024px) {
     :root {
-        --pico-font-size: 118.75%
+        --pico-font-size: 90%
     }
 }
 
 @media (min-width:1280px) {
     :root {
-        --pico-font-size: 125%
+        --pico-font-size: 100%
     }
 }
 
@@ -657,7 +657,7 @@ hgroup {
 }
 
 ul li {
-    list-style: square
+    list-style: inherit;
 }
 
 mark {
